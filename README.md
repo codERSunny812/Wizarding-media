@@ -2,6 +2,9 @@
 
 Creator AI Insights is a full-stack application that helps users generate AI-powered content ideas for social media reels based on specific topics and niches. It features user authentication, content generation using the Cohere API, and a modern React-based frontend.
 
+Live Link: https://wizarding-media-eight.vercel.app/
+Loom Video : https://www.loom.com/share/84888a587a6e4141bba72f6d091937e4
+
 ## 📂 Project Structure
 - `/client` — Frontend (React + Vite + Tailwind CSS)
 - `/server` — Backend (Express.js + MongoDB + JWT Authentication)
