@@ -27,7 +27,7 @@ const ContentIdeaAssistant = () => {
   ];
 
   const fetchAIContent = async (userTopic: string, userNiche: string): Promise<ContentIdea> => {
-    const response = await fetch('http://localhost:4000/api/v1/ai-response/generate-content', {
+    const response = await fetch('https://wizarding-media-ok6l.onrender.com/api/v1/ai-response/generate-content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ topic: userTopic, niche: userNiche }),

@@ -9,7 +9,7 @@ const Login = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:4000/api/v1/auth/user/login', {
+    const response = await fetch('https://wizarding-media-ok6l.onrender.com/api/v1/auth/user/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
