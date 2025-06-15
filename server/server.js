@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin:"http://localhost:8080"
+    origin:"https://wizarding-media-eight.vercel.app"
 }));
 app.use(express.json());
 
